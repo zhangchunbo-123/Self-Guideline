@@ -1,0 +1,20 @@
+1. Clone your test repo. This will create a local git repo inside the folder TestRepo on your local machine.
+
+
+
+git clone \\fors3exa\RanorexResults\TmpDimo\TestRepo\
+
+
+
+2. Get your external files. (This will replaced via nuget for external files soon.)
+
+
+
+powershell -f .\GetExternalDependanciesSOMX.ps1
+
+
+在repo中添加logs文件夹
+
+	我的本地repo存放地址：D:\Projects\SOM10_SSME\Somaris10\UtilLayer\logs	
+	
+	添加文件：RepoEnhancer.log
